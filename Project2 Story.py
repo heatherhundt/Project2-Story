@@ -108,13 +108,13 @@ elif(whoAssist == "c" or whoAssist == "C"):
   print("")
   
   #dragon riddle correct
-  if(result == "10"):
+  if(result == 10):
       print(f"Ah yes, {firstNumber} and {secondNumber} add up to ten. Well done! As your answer is correct the dragon agrees to keep his promise and let the kingdom of UMBC remain safr from his wrath.")
       print("")
       print("         THE END")
 
   #dragon riddle incorrect
-  elif(result != "10"):
+  elif(result != 10):
        print("No, those numbers don't add up to 10. The fire breathing dragon will now burn down the kingdom of UMBC and you will forever be exiled to the arctic by the king!")
        print("")
        print("       THE END")
